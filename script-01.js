@@ -1,15 +1,27 @@
- let grade = parseInt(prompt("Enter your grade (0 - 100):"));
+// const Marks = "Grade A > 79, Grade B >= 60, Grade C => 49, Grade D => 40, Grade E < 40"
+
+// function grade(Marks) {
+//     if (Marks > 79) {
+//         return grade = A
+//     }
+// } 
+
+
+// console.log(grade())
+
+ 
+let grade = parseInt(prompt("Enter student marks (0 - 100):"));
 const marks = (grade >= 0 && grade <= 100)
 if (marks) {
     if (grade > 79) {
-        console.log("A");
+        alert("Your grade is A");
     } else if (grade >= 60) {
-        console.log("B");
+        alert("Your grade is B");
     } else if (grade >= 49) {
-        console.log("C");
+        alert("Your grade is C");
     } else if (grade >= 40) {
-        console.log("D");
+        alert("Your grade is D");
     } else {
-        console.log("E");
+        alert("Your grade is E");
     }
 }
