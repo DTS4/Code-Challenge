@@ -18,3 +18,4 @@ function speedDetector(speed) {
     }
 }
 console.log(speedDetector(80))
+
