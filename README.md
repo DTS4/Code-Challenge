@@ -5,13 +5,15 @@
 #### By *Keith Githinji*
 
 ## Description
-It's a webpage that shows different types of triangles and what they look like.
-
+1. A program that prompts the user to input student marks. The input should be between 0 and 100.
+2. A program that takes as input the speed of a car
+3. A program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits.
 ## Installation
 You use git clone to be able to download the documents in the GitHub
 
 ## Installation Requirements
-Git
+Git  
+Node 
 
 ### Installation instruction
 ```
